@@ -34,6 +34,11 @@ justify-content: flex-start | flex-end | center | space-between | space-around
 align-items: flex-start | flex-end | center | baseline | stretch
   -aligns items along the cross axis
 
+order
+  - what it says on the tin, neg & pos ints
+  - default is 0
+  - great bc it only changes in the styling and not semantically, which helps screen readers etc
+
 
 
 

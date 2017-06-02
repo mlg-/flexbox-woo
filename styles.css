@@ -18,6 +18,8 @@ html {
 
 /* Examples to show
 
+======== best shown with group of icons ========
+
 flex-direction: row | row-reverse | column | column-reverse
   - governed by the directionality of the text (writing-mode: vertical-rl for ex)
   - determines the main start and main ends of the container
@@ -28,19 +30,27 @@ flex-wrap: wrap | no-wrap | reverse;
 
 flex-flow (shorthand for <flex-direction> <flex-wrap>)
 
+order
+  - what it says on the tin, neg & pos ints
+  - default is 0
+  - great bc it only changes in the styling and not semantically, which helps screen readers etc
+
+====== best shown with single icon =======
+
 justify-content: flex-start | flex-end | center | space-between | space-around
   - aligns items along the main axis
 
 align-items: flex-start | flex-end | center | baseline | stretch
   -aligns items along the cross axis
 
-order
-  - what it says on the tin, neg & pos ints
-  - default is 0
-  - great bc it only changes in the styling and not semantically, which helps screen readers etc
+======= back to group of icons =============
 
 align-self: auto | flex-start | flex-end | center | baseline | stretch
   - override alignment for indiv children
+
+flex-grow
+  - how much space to take up relative to siblings
+
 
 
 */

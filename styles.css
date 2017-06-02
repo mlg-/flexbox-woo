@@ -28,6 +28,13 @@ flex-wrap: wrap | no-wrap | reverse;
 
 flex-flow (shorthand for <flex-direction> <flex-wrap>)
 
+justify-content: flex-start | flex-end | center | space-between | space-around
+  - aligns items along the main axis
+
+align-items: flex-start | flex-end | center | baseline | stretch
+  -aligns items along the cross axis
+
+
 
 
 */

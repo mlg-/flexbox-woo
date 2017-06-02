@@ -39,7 +39,8 @@ order
   - default is 0
   - great bc it only changes in the styling and not semantically, which helps screen readers etc
 
-
+align-self: auto | flex-start | flex-end | center | baseline | stretch
+  - override alignment for indiv children
 
 
 */

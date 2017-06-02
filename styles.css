@@ -5,10 +5,11 @@ html {
 .main {
   display: flex;
   flex-direction: row;
+  flex-wrap: wrap;
 }
 
 .person {
-  flex-grow: 1;
+  flex-grow: 6;
 }
 
 .person img{
